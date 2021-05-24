@@ -1,0 +1,16 @@
+{
+    "host":"0.0.0.0",
+    "port":"3000",
+    "channelName":"testchan",
+    "chaincodeName":"ccproj",
+    "eventWaitTime":"30000",
+    "peers":[
+        "peer1"
+    ],
+    "admins":[
+       {
+          "username":"admin",
+          "secret":"Adminpwd1!"
+       }
+    ]
+ }

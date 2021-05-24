@@ -1,0 +1,52 @@
+{
+  "name": "cloud_computing_final_proj",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --coverage",
+    "start": "node src/index.js",
+    "start:watch": "nodemon --watch src --exec node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heliumyc/cloud_computing_final_proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heliumyc/cloud_computing_final_proj/issues"
+  },
+  "homepage": "https://github.com/heliumyc/cloud_computing_final_proj#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^4.12.0",
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "cids": "^1.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "form-data": "^2.3.3",
+    "install": "^0.13.0",
+    "it-concat": "^2.0.0",
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.30.12",
+    "libp2p-bootstrap": "^0.12.3",
+    "libp2p-kad-dht": "^0.22.0",
+    "libp2p-mdns": "^0.16.0",
+    "libp2p-mplex": "^0.10.3",
+    "libp2p-noise": "^3.0.0",
+    "libp2p-relay-server": "^0.1.2",
+    "libp2p-websockets": "^0.15.5",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.7",
+    "multihashing": "^0.3.3",
+    "puppeteer": "^9.1.1",
+    "qs": "^6.5.2",
+    "redis": "^3.1.2",
+    "streaming-iterables": "^5.0.4"
+  }
+}
